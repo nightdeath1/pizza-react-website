@@ -8,6 +8,10 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   font-weight: 700;
+
+  @media screen and (max-width: 478px) {
+    justify-content: flex-start;
+  }
 `;
 export const NavH2 = styled.h2`
 padding-left: 15px;
