@@ -34,7 +34,7 @@ export const SidebarContainer = styled.aside`
   }
 
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 478px) {
     width: 100%;
   }
 `;
