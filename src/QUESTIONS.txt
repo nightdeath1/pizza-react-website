@@ -1,0 +1,19 @@
+1. Hashlink to data.map elements (DONE)
+
+
+
+2. Transition (useSpring, useTranslate, react-transition-group) (??)
+
+
+
+3.  Hide button state when page is on top (DONE)
+
+4. window.scrollTo({
+    top: 0,
+    behaviour: 'smooth'
+}) - smooth doesn't work   (??)
+
+5. useEffect add event listener THEN remove event listener WHY (???)
+
+
+6. Pass function from 1 folder to everywhere no repeat (???)
