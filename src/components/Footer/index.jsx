@@ -15,13 +15,10 @@ import {
   SocialIcons,
   SocialIconLink
 } from './FooterElements';
-import { animateScroll as scroll } from "react-scroll";
-
+import {ScrollTop} from '../scrollTop'
 
 const Footer = () => {
-  const ScrollTop = () => {
-    scroll.scrollToTop();
-  };
+
   return (
     <FooterContainer>
       <FooterWrap>
