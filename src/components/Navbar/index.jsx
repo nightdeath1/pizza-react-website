@@ -7,11 +7,11 @@ import {FaPizzaSlice} from 'react-icons/fa';
 const Navbar = ({ openMenu }) => {
   const [hover, setHover] = useState(false);
   const onHover = () => {
-    setHover(false);
+    setHover(true);
   };
 
   const onLeave = () => {
-    setHover(true);
+    setHover(false);
   };
 
   return (
