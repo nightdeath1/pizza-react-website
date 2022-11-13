@@ -24,7 +24,7 @@ function App() {
         <GoTop />
         <Navbar openMenu={handleOpenMenu}/>
         <Hero />
-        <Sidebar showMenu={menuState} closeMenu={handleCloseMenu}/>
+        <Sidebar menuState={menuState} closeMenu={handleCloseMenu}/>
         <Products id="pizza" heading='Pizza' data={productData}/>
         <Feature />
         <Products id="dessert" heading='Dessert' data={productDataTwo}/>
